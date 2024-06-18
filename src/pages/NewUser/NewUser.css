@@ -1,0 +1,42 @@
+.new_user_wrapper {
+    flex: 5;
+    margin: 0.8rem 2rem;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 1rem;
+}
+
+.new_user_wrapper h2 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 2.5rem;
+}
+
+.input_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input_wrapper input {
+    width: 369px;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.input_wrapper label {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.new_user_button {
+    width: 500px;
+}

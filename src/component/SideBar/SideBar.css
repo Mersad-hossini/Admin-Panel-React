@@ -1,0 +1,65 @@
+aside {
+    flex: 1;
+    height: calc(100vh - 90px);
+    background-color: rgb(251,251,255);
+    position: sticky;
+    transition: all 250ms ease-out;
+    z-index: 999;
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+}
+
+.aside_wrapper {
+    padding: 0 20px;
+    color: #555;
+}
+
+.asside_menu {
+    display: flex;
+    padding: 5px 1rem 5px 0;
+    margin-top: 2rem;
+    align-items: center;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    transition: 250ms;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    -webkit-transition: 250ms;
+    -moz-transition: 250ms;
+    -ms-transition: 250ms;
+    -o-transition: 250ms;
+}
+
+.sidebar_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.asside_menu:hover {
+    background-color: rgb(240,240,255);
+}
+
+.sidebar_icon {
+    margin-right: 10px;
+    font-size: 28px;
+}
+
+.sidebar_section {
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.openAside {
+    left: 0;
+}
+
+.closeAside {
+    left: -150px;
+}

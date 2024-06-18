@@ -1,0 +1,72 @@
+.main_product_wrapper {
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.product_info {
+    width: 48%;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 1);
+    padding: 10px;
+}
+
+.product_attribute {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    font-weight: 500;
+}
+
+.product_name {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product_name h3 {
+    font-size: 25px;
+}
+
+.product_update {
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 1);
+    padding: 2rem;
+    width: 98%;
+}
+
+.update_form_product {
+    display: flex;
+    align-items: baseline;
+}
+
+.update_form_product input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.6);
+        font-weight: 600;
+    font-size: 16px;
+}
+
+.product_button_update {
+    width: 500px;
+}
+
+.select_box_product_status {
+    width: 20%;
+}
+
+.select_box_option em {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+em {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,101 @@
+.home_wrapper {
+    flex: 5;
+    margin: 2.5rem 0 0 0;
+}
+
+.reports_title {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sales_info {
+    align-items: center;
+    display: flex;
+    margin: 10px 10px 50px 10px;
+    flex-wrap: wrap;
+}
+
+.order_box {
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 1rem 2rem;
+    width: 33%;
+    display: flex;
+}
+
+.order_box svg {
+    color: #fff;
+    font-size: 55px;
+    padding: 10px;
+    background-color: #12b76a;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.order_box_body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.order_box_body span:nth-child(1) {
+    color: gray;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.order_box_body span:nth-child(2) {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.performance_indicators {
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    width: 97%;
+    margin: 10px;
+}
+
+
+.performance_indicators > h4 {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.performance_indicators hr {
+    border-top: 1px solid #e1e1e1;
+}
+
+.box_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.performance_box {
+    background-color: rgb(243, 244, 247);
+    border-radius: 6px;
+    padding: 11px;
+    width: 17%;
+    margin: 17px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.performance_box h5 {
+    color: #585858;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.performance_box > span {
+    font-weight: 600;
+}
+
+.chart_wrapper {
+    padding: 10px;
+}
